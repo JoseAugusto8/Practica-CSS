@@ -1,0 +1,45 @@
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-opaque{
+    display: inline-block;
+    width: 200px;
+}
+
+.fondoFemaleNurse{
+    background-image: url("./female-nurse.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.iconAstra{
+    background-image: url("./Astra-SVG.svg");
+    background-repeat: no-repeat;
+}
+
+.iconSinoVac{
+    background-image: url("./Sinovac-SVG.svg");
+    background-repeat: no-repeat;
+}
+
+.iconPfizer{
+    background-image: url("./Pfizer-SVG.svg");
+}
+
+.iconModerna{
+    background-image: url("./Moderna-SVG.svg");
+}
+
+.fondoYoungWoman{
+    background-image: url("./young-woman.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.fondoManNurse{
+    background-image: url("./man-nurse.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+}

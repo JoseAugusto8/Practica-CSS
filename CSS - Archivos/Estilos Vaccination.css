@@ -1,0 +1,129 @@
+*{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.nav-left{
+    align-items: center; 
+    width: 30%;
+    height: 40px;
+}
+
+.nav-right{
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.nav-list{
+    justify-content: space-around;
+}
+
+/*Añadidos el Dom. 13 Marz 2022*/
+.title-container{
+    width: 50%;
+    height: 500px;
+
+}
+
+.logos{
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-opaque{
+    width: 200px;
+    opacity: 0.7;
+}
+
+/*Añadidos a partir del Vir. 18 Marzo*/
+.title-section{
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+.floating-card{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 90px;
+    top: 530px;
+}
+
+.reasons{
+    width: 100%;
+}
+
+.reasons-text{
+    box-sizing: border-box;
+}
+
+.reasons-card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reasons-card{
+    width: 20%;
+    height: 260px;
+    display: flex;
+}
+
+.prep{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prep-container{
+    width: 50%;
+    height: 650px;
+}
+
+.prep-list-container{
+    width: 400px;
+    display: flex;
+    
+}
+
+.contact{
+    width: 100%;
+    height: 750px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container{
+    width: 50%;
+    height: 650px;
+}
+
+.contact-card-container{
+    width: 400px;
+    display: flex;
+
+}
+
+.contact-card{
+    width: 180px;
+    height: 200px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.goal-side{
+    width: 150px;
+}
+
+.about-side{
+    width: 650px;
+}
+
